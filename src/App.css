@@ -1,0 +1,59 @@
+.dice-game-container {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+h2.player-heading {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+button.start-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button.start-button:hover {
+  background-color: #0056b3;
+}
+
+button.roll-button,
+button.end-turn-button,
+button.next-round-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button.roll-button:hover,
+button.end-turn-button:hover,
+button.next-round-button:hover {
+  background-color: #0056b3;
+}
+
+p.current-roll {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+div > p {
+  font-size: 16px;
+}
+
+span.score {
+  font-weight: bold;
+}
